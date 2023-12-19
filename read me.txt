@@ -1,0 +1,5 @@
+Navigate to the directory where your Dockerfile is located.
+
+Build the Docker image using the following command:
+docker build -t appointments.
+docker run -p 8080:8080 appointments-spring-boot-app
